@@ -1,48 +1,167 @@
 <!doctype html>
-<html lang="no">
+<html lang="nb">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Personvern – O.K IPTV</title>
+<title>Personvernerklæring – O.K IPTV</title>
+<meta name="description" content="Personvernerklæring for O.K IPTV / Privacy policy for O.K IPTV">
 <style>
-  body { margin: 0; background: #07080F; color: #ECEEFF; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-  .wrap { max-width: 760px; margin: 0 auto; padding: 48px 16px; }
-  h1 { margin-top: 0; } h2 { margin-top: 32px; font-size: 1.2rem; }
-  p, li { color: #C9CDEA; } a { color: #22D3EE; }
+  :root { --bg:#07080F; --surface:#0C0E1A; --container:#131628; --text:#ECEEFF; --muted:#9BA1C7;
+          --outline:#252A45; --violet:#8B5CF6; --cyan:#22D3EE; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin:0; background:var(--bg); color:var(--text);
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  header { background: radial-gradient(120% 140% at 10% 0%, rgba(139,92,246,.45), transparent 60%),
+                       radial-gradient(100% 120% at 100% 100%, rgba(34,211,238,.30), transparent 60%), var(--surface);
+           border-bottom:1px solid var(--outline); }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 16px; }
+  header .wrap { padding-top: 28px; padding-bottom: 24px; }
+  .brand { display:flex; align-items:center; gap:10px; font-weight:800; letter-spacing:.5px; font-size:18px; }
+  .badge { width:30px; height:30px; border-radius:9px; background:linear-gradient(135deg,#4C1D95,var(--violet),var(--cyan)); }
+  .lang { margin-top:10px; font-size:14px; color:var(--muted); }
+  main { padding: 8px 0 48px; }
+  h1 { font-size: 28px; line-height:1.25; margin: 28px 0 12px; }
+  h2 { font-size: 20px; margin: 30px 0 8px; color: var(--text); }
+  h2::before { content:""; display:inline-block; width:10px; height:10px; border-radius:3px; margin-right:10px;
+               background:linear-gradient(135deg,var(--violet),var(--cyan)); vertical-align:middle; }
+  p, li { color: #D5D8F2; }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  a { color: var(--cyan); text-underline-offset: 2px; word-break: break-word; }
+  strong { color: var(--text); }
+  em { color: var(--muted); }
+  hr { border:0; height:1px; background:var(--outline); margin: 40px 0 8px; }
+  footer { border-top:1px solid var(--outline); color:var(--muted); font-size:14px; padding:20px 0 32px; }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <p><a href="./">← O.K IPTV</a></p>
-  <h1>Personvernerklæring</h1>
-  <p>Gjelder fra 18. oktober 2026.</p>
-
-  <h2>Hvilke data appen behandler</h2>
-  <ul>
-    <li>Spillelister, innloggingsdetaljer, favoritter og innstillinger lagres kun på enheten din og sendes kun til leverandøren du selv har lagt inn.</li>
-    <li>Appen har ingen analyse-, reklame- eller sporingsverktøy, og vi samler ikke inn personopplysninger.</li>
-    <li>Kjøp håndteres av Google Play. Vi mottar ikke betalingsopplysningene dine.</li>
-    <li>Starttidspunktet for prøveperioden lagres i Googles sikkerhetskopi for enheten (Block Store), slik at prøveperioden ikke nullstilles ved ny installasjon.</li>
-    <li>Chromecast kommuniserer med enheter på ditt lokale nettverk.</li>
-  </ul>
-
-  <h2>Sletting</h2>
-  <p>Du sletter alle data ved å fjerne appen eller tømme appdata i Android-innstillingene.</p>
-
-  <h2>Kontakt</h2>
-  <p><a href="mailto:ok.oslo.apps@gmail.com">ok.oslo.apps@gmail.com</a></p>
-
-  <h1 style="margin-top:56px">Privacy policy (English)</h1>
-  <p>Effective 18 October 2026.</p>
-  <ul>
-    <li>Playlists, login details, favourites and settings are stored only on your device and are sent only to the provider you add yourself.</li>
-    <li>The app contains no analytics, advertising or tracking SDKs, and we do not collect personal data.</li>
-    <li>Purchases are handled by Google Play. We never receive your payment details.</li>
-    <li>The trial start time is stored in Google's device backup (Block Store) so the trial is not reset by reinstalling.</li>
-    <li>Chromecast communicates with devices on your local network.</li>
-    <li>Uninstalling the app or clearing its data deletes all data.</li>
-  </ul>
-  <p>Contact: <a href="mailto:ok.oslo.apps@gmail.com">ok.oslo.apps@gmail.com</a></p>
-</div>
+<header><div class="wrap">
+  <div class="brand"><span class="badge" aria-hidden="true"></span>O.K IPTV</div>
+  <div class="lang">Norsk · <a href="#english">English</a></div>
+</div></header>
+<main class="wrap">
+<h1>Personvernerklæring for O.K IPTV</h1>
+<p><strong>Gjelder fra:</strong> 18. oktober 2026<br>
+<strong>Kontakt:</strong> <a href="mailto:ok.oslo.apps@gmail.com">ok.oslo.apps@gmail.com</a><br>
+<strong>Nettside:</strong> <a href="https://olekstu.github.io/okiptv/">https://olekstu.github.io/okiptv/</a></p>
+<p><em>English version below.</em></p>
+<p>O.K IPTV er kun en mediespiller. Appen inneholder, leverer eller selger ingen kanaler, spillelister eller innhold. Du må selv legge til innhold du har lovlig tilgang til.</p>
+<p>Denne erklæringen forklarer hvilke opplysninger appen behandler, hvor de lagres og hvem som behandler dem. Behandlingsansvarlig er utvikleren av O.K IPTV («vi»), som du når på e-postadressen over.</p>
+<h2>Kort fortalt</h2>
+<ul>
+<li>Spillelister, innloggingsdetaljer til leverandøren din, favoritter og innstillinger lagres <strong>bare på enheten din</strong>. De sendes bare til <strong>din egen IPTV-leverandør</strong>, aldri til oss.</li>
+<li>Appen har <strong>ingen reklame, ingen analyseverktøy og ingen sporing</strong>. Vi samler ikke inn bruksstatistikk eller krasjrapporter, og vi bruker ikke annonse-ID.</li>
+<li>Du trenger <strong>ikke</strong> å logge inn. Prøveperioden, avspilling og kjøp virker uten konto.</li>
+<li>Kjøp går gjennom <strong>Google Play</strong>. Kjøpsstatusen håndteres av <strong>RevenueCat</strong>.</li>
+<li>Hvis du <strong>velger</strong> å logge inn, behandler <strong>Google Firebase</strong> e-postadressen din og en bruker-ID.</li>
+</ul>
+<h2>1. Opplysninger som bare lagres på enheten</h2>
+<p>Følgende lagres lokalt i appen og sendes aldri til oss:</p>
+<ul>
+<li>spilleliste-adresser (M3U/Xtream), inkludert brukernavn og passord til leverandøren din</li>
+<li>EPG-adresser, egendefinert User-Agent og kontoinformasjon fra leverandøren (status og utløpsdato)</li>
+<li>nedlastede kopier av spillelister og programguide (cache)</li>
+<li>favoritter og innstillinger</li>
+</ul>
+<p>Appen bruker disse opplysningene til å hente spillelister, programguide, logoer og strømmer <strong>direkte fra serverne du selv har lagt inn</strong>. Hvordan leverandøren din behandler opplysninger, styres av leverandørens egne vilkår. Vi har ikke tilgang til dette.</p>
+<p>Android-sikkerhetskopien til Google-kontoen din inneholder <strong>ikke</strong> spillelister eller passord. Den inneholder bare prøveperiode- og kjøpsstatus (se punkt 3). Ved direkte overføring fra en gammel til en ny telefon (kabel eller lokalt Wi-Fi) kan Android kopiere alle appdata.</p>
+<h2>2. Kjøp (Google Play og RevenueCat)</h2>
+<p>O.K IPTV kan låses opp med et engangskjøp i Google Play.</p>
+<ul>
+<li><strong>Google Play</strong> behandler betalingen. Vi ser aldri kortnummer eller betalingsinformasjon. Se <a href="https://policies.google.com/privacy">Googles personvernerklæring</a>.</li>
+<li><strong>RevenueCat, Inc.</strong> er vår databehandler for kjøp. Appen sender kjøpskvitteringen (kjøpstoken, produkt og tidspunkt) til RevenueCat sammen med en tilfeldig app-bruker-ID. Hvis du er logget inn, er det bruker-ID-en din i Firebase. RevenueCat bekrefter kjøpet hos Google, lagrer kjøpshistorikken og forteller appen om den er låst opp. Vi har slått av RevenueCats innsamling av enhets- og annonse-ID-er. Se <a href="https://www.revenuecat.com/privacy">RevenueCats personvernerklæring</a>.</li>
+</ul>
+<p>Behandlingsgrunnlaget er avtalen med deg (å levere kjøpet du har betalt for).</p>
+<h2>3. Prøveperiode (Google Block Store)</h2>
+<p>For at prøveperioden på 30 dager ikke skal starte på nytt ved ny installasjon, lagrer appen to tidspunkter: når prøveperioden startet, og når appen sist var i bruk. De lagres</p>
+<ul>
+<li>lokalt på enheten,</li>
+<li>i <strong>Google Block Store</strong>, som tar vare på dem ved ny installasjon og kan ta dem med til en ny enhet via Google-sikkerhetskopien din, og</li>
+<li>i Android-sikkerhetskopien til Google-kontoen din, sammen med informasjon om at appen er låst opp.</li>
+</ul>
+<p>Dette er bare tidspunkter, ingen personopplysninger utover det. RevenueCat kan også lagre sin tilfeldige app-bruker-ID i Block Store, slik at kjøpet gjenkjennes etter ny installasjon. Behandlingsgrunnlaget er vår berettigede interesse i å hindre misbruk av prøveperioden.</p>
+<h2>4. Valgfri innlogging (Google Firebase)</h2>
+<p>Etter et kjøp kan du velge å logge inn med Google. Da kan livstidstilgangen brukes på alle enhetene dine, og senere også på iPhone/iPad. Innlogging er aldri påkrevd.</p>
+<p>Hvis du logger inn, behandler <strong>Google Firebase Authentication</strong> (Google LLC/Google Ireland Ltd.) Google-kontoens e-postadresse, en bruker-ID og grunnleggende profilinformasjon fra Google (navn og profilbilde, som vi ikke bruker). Bruker-ID-en sendes til RevenueCat, slik at kjøpet knyttes til kontoen. Firebase kan bruke Play Integrity og reCAPTCHA for å hindre misbruk av innloggingen. Se <a href="https://firebase.google.com/support/privacy">Firebase: personvern og sikkerhet</a> og <a href="https://policies.google.com/privacy">Googles personvernerklæring</a>.</p>
+<p>Behandlingsgrunnlaget er samtykket ditt, som du gir når du velger å logge inn. Du kan logge ut når som helst.</p>
+<h2>5. Chromecast</h2>
+<p>Når du caster, kommuniserer appen med Chromecast-enheter <strong>på ditt lokale nettverk</strong> via Google Cast. Strømmens adresse, kanalnavn og logo sendes til Cast-enheten, som henter strømmen direkte fra leverandøren din. Google Cast-tjenestene i Google Play-tjenester er underlagt <a href="https://policies.google.com/privacy">Googles personvernerklæring</a>.</p>
+<h2>6. Google Play-tjenester</h2>
+<p>Appen bruker komponenter fra Google Play-tjenester: Cast, Block Store, Google Play Billing og Logg på med Google. Disse komponentene kan sende teknisk informasjon til Google for å fungere og for å hindre misbruk, i tråd med <a href="https://policies.google.com/privacy">Googles personvernerklæring</a>. Vi får ikke tilgang til denne informasjonen.</p>
+<h2>7. Lagringstid og sletting</h2>
+<ul>
+<li><strong>Data på enheten:</strong> Avinstaller appen, eller gå til <em>Innstillinger → Apper → O.K IPTV → Lagring → Tøm data</em>. Da slettes spillelister, passord, favoritter og innstillinger.</li>
+<li><strong>Prøveperiodetidspunkter i Block Store</strong> blir liggende etter avinstallering, for å hindre at prøveperioden starter på nytt. De inneholder bare tidspunktene. Vi har ikke tilgang til dem. Du fjerner dem ved å slette enhetens sikkerhetskopi i Google-kontoen din (Google One / Google Disk → Sikkerhetskopier).</li>
+<li><strong>Innloggingskonto</strong> <a id="slett-konto"></a>: I appen velger du <em>Innstillinger og om → Konto → Slett konto</em>. Da slettes Firebase-kontoen din (e-post og bruker-ID) med en gang. Du kan også sende e-post til <a href="mailto:ok.oslo.apps@gmail.com">ok.oslo.apps@gmail.com</a> med emnet «Slett konto» fra adressen du brukte. Vi sletter da kontoen og kjøpshistorikken hos RevenueCat innen 30 dager. Kjøpet ditt hos Google Play påvirkes ikke.</li>
+<li><strong>Kjøpshistorikk hos RevenueCat</strong> beholdes så lenge kjøpet gjelder, og så lenge regnskapsregler krever det. Vi sletter den når du ber om det.</li>
+</ul>
+<h2>8. Dine rettigheter</h2>
+<p>Etter personvernforordningen (GDPR) har du rett til innsyn, retting, sletting, begrensning, dataportabilitet og til å protestere. Kontakt oss på <a href="mailto:ok.oslo.apps@gmail.com">ok.oslo.apps@gmail.com</a>. Du kan også klage til <a href="https://www.datatilsynet.no/">Datatilsynet</a>.</p>
+<h2>9. Barn</h2>
+<p>Appen er ikke rettet mot barn under 13 år, og vi samler ikke bevisst inn opplysninger om barn.</p>
+<h2>10. Endringer</h2>
+<p>Hvis vi endrer erklæringen, oppdaterer vi datoen øverst. Ved vesentlige endringer varsler vi i appen.</p>
+<hr>
+<h1 id="english">Privacy Policy for O.K IPTV (English)</h1>
+<p><strong>Effective date:</strong> 18 October 2026<br>
+<strong>Contact:</strong> <a href="mailto:ok.oslo.apps@gmail.com">ok.oslo.apps@gmail.com</a></p>
+<p>O.K IPTV is a media player only. The app does not contain, provide or sell any channels, playlists or content. You must add content you are legally entitled to access.</p>
+<p>The controller is the developer of O.K IPTV ("we"), reachable at the email address above.</p>
+<h2>Summary</h2>
+<ul>
+<li>Playlists, your provider credentials, favourites and settings are stored <strong>only on your device</strong>. They are sent only to <strong>your own IPTV provider</strong>, never to us.</li>
+<li><strong>No ads, no analytics, no tracking.</strong> We collect no usage statistics or crash reports, and we do not use the advertising ID.</li>
+<li>Login is <strong>optional</strong>. The trial, playback and purchases all work without an account.</li>
+<li>Purchases go through <strong>Google Play</strong>, and purchase status is handled by <strong>RevenueCat</strong>.</li>
+<li>If you <strong>choose</strong> to sign in, <strong>Google Firebase</strong> processes your email address and a user ID.</li>
+</ul>
+<h2>1. Data stored only on your device</h2>
+<p>The app stores the following locally and never sends it to us:</p>
+<ul>
+<li>playlist URLs (M3U/Xtream), including your provider username and password</li>
+<li>EPG URLs, a custom User-Agent and provider account info (status, expiry)</li>
+<li>cached playlists and programme guide</li>
+<li>favourites and settings</li>
+</ul>
+<p>The app uses this data to fetch playlists, the guide, logos and streams <strong>directly from the servers you entered</strong>. Your provider's own terms govern how it handles data, and we have no access to it.</p>
+<p>Your Android cloud backup does <strong>not</strong> include playlists or passwords. It only includes the trial and unlock status (see section 3). A direct phone-to-phone transfer (cable or local Wi-Fi) may copy all app data.</p>
+<h2>2. Purchases (Google Play and RevenueCat)</h2>
+<ul>
+<li><strong>Google Play</strong> processes the payment. We never see card or payment details. See the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+<li><strong>RevenueCat, Inc.</strong> is our processor for purchases. The app sends the purchase receipt (purchase token, product and time) to RevenueCat together with a random app user ID, which is your Firebase user ID if you are signed in. RevenueCat validates the purchase with Google, stores the purchase history and tells the app whether it is unlocked. We have disabled RevenueCat's collection of device and advertising identifiers. See the <a href="https://www.revenuecat.com/privacy">RevenueCat Privacy Policy</a>.</li>
+</ul>
+<p>The legal basis is performance of the contract: delivering the purchase you paid for.</p>
+<h2>3. Trial (Google Block Store)</h2>
+<p>So that the 30-day trial does not restart on reinstall, the app stores two timestamps: when the trial started and when the app was last used. They are stored</p>
+<ul>
+<li>locally on the device,</li>
+<li>in <strong>Google Block Store</strong>, which keeps them across reinstalls and can carry them to a new device through your Google backup, and</li>
+<li>in your Android Google backup, together with the unlock status.</li>
+</ul>
+<p>These are timestamps only. RevenueCat may also store its random app user ID in Block Store, so the purchase is recognised after a reinstall. The legal basis is our legitimate interest in preventing trial abuse.</p>
+<h2>4. Optional sign-in (Google Firebase)</h2>
+<p>After a purchase you may choose to sign in with Google, so your lifetime access works on all your devices (and later on iPhone/iPad). Sign-in is never required.</p>
+<p>If you sign in, <strong>Google Firebase Authentication</strong> processes your Google account email address, a user ID and basic Google profile data (name and photo, which we do not use). The user ID is sent to RevenueCat to link the purchase to your account. Firebase may use Play Integrity and reCAPTCHA to prevent abuse of sign-in. See <a href="https://firebase.google.com/support/privacy">Firebase privacy and security</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<p>The legal basis is your consent, which you give by choosing to sign in. You can sign out at any time.</p>
+<h2>5. Chromecast</h2>
+<p>When you cast, the app communicates with Cast devices <strong>on your local network</strong> via Google Cast. The stream URL, channel name and logo are sent to the Cast device, which fetches the stream directly from your provider.</p>
+<h2>6. Google Play services</h2>
+<p>The app uses Google Play services components: Cast, Block Store, Google Play Billing and Sign in with Google. These may send technical information to Google to operate and to prevent abuse, under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. We do not receive this information.</p>
+<h2>7. Retention and deletion</h2>
+<ul>
+<li><strong>On-device data:</strong> uninstall the app, or go to <em>Settings → Apps → O.K IPTV → Storage → Clear data</em>. This removes playlists, passwords, favourites and settings.</li>
+<li><strong>Trial timestamps in Block Store</strong> remain after uninstalling, to prevent trial resets. They contain only the timestamps, and we have no access to them. You remove them by deleting the device backup in your Google account (Google One / Google Drive → Backups).</li>
+<li><strong>Sign-in account:</strong> in the app, open <em>Innstillinger og om → Konto → Slett konto</em>. This deletes your Firebase account (email and user ID) immediately. Alternatively, email <a href="mailto:ok.oslo.apps@gmail.com">ok.oslo.apps@gmail.com</a> with the subject "Delete account" from the address you used. We will then delete the account and the RevenueCat purchase history within 30 days. Your Google Play purchase is not affected.</li>
+<li><strong>RevenueCat purchase history</strong> is kept for as long as the purchase is valid and as long as accounting rules require. We delete it when you ask us to.</li>
+</ul>
+<h2>8. Your rights</h2>
+<p>Under the GDPR you have the right of access, rectification, erasure, restriction, data portability and to object. Contact us at <a href="mailto:ok.oslo.apps@gmail.com">ok.oslo.apps@gmail.com</a>. You may also complain to the Norwegian Data Protection Authority (<a href="https://www.datatilsynet.no/">Datatilsynet</a>).</p>
+<h2>9. Children</h2>
+<p>The app is not directed at children under 13, and we do not knowingly collect data from children.</p>
+<h2>10. Changes</h2>
+<p>If we change this policy, we will update the date above. We will notify you in the app of material changes.</p>
+</main>
+<footer><div class="wrap">O.K IPTV · <a href="mailto:ok.oslo.apps@gmail.com">ok.oslo.apps@gmail.com</a> · <a href="https://olekstu.github.io/okiptv/">olekstu.github.io/okiptv</a></div></footer>
 </body>
 </html>
